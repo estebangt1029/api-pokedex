@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con-titulo{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokemones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+.nombres{
+    align-items: center;
+}
+.conpoke{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paginacion{
+    display: flex;
+    justify-content: center;
+}
+.filtro{
+    display: none;
+}
